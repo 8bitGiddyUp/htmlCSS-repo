@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="" method="">
+    <!--
+      label's for="name" matches to input's id="name"; when these two matches
+      the input box is highlighted when the label is clicked
+    -->
+    <label for="name">first name</label>
+    <input type="text" name="name" id="name">
+    <br>
+    <label for="psswrd">password</label>
+    <input type="password" name="" id="psswrd" placeholder="password">
+    <br>
+    <label for="emil">email</label>
+    <input type="email" name="" id="emil" value="email@email.com">
+    <br>
+
+    <p>description</p>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <br>
+    <!--
+      in radio buttons, they must have the same name="coding"; otherwise,
+      the radio buttons allows to pick more than one; it behave like a checkbox
+    -->
+    <p>please select your favorite coding</p>
+    <input type="radio" name="coding" id="" value="javascript">javascript
+    <input type="radio" name="coding" id="" value="python">python
+    <input type="radio" name="coding" id="" value="sas">sas
+    <br>
+    <input type="checkbox" name="checkboxprog" id="" value="c++" checked="checked">c++
+    <input type="checkbox" name="checkboxprog" id="" value="scala">scala
+    <input type="checkbox" name="checkboxprog" id="" value="c#">c#
+    <br>
+    <select name="lang" id="">
+      <option value="javascript">javascript</option>
+      <option value="python">python</option>
+      <option value="monty">monty</option>
+    </select>
+    <!-- <button type="submit">submit</button> -->
+    <br>
+    <input type="submit">
+  </form>
+</body>
+</html>
