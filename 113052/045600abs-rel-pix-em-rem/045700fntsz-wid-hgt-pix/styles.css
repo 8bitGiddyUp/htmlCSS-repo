@@ -1,0 +1,44 @@
+/*
+  font-size, width, height, pixels
+*/
+h2 {
+  font-size: 60px;
+  width: 400px;
+  height: 200px;
+  background: grey;
+}
+
+/*
+  percent values - relative
+    the relative % width&height are determined by its parent
+      -> .inner must know the size of its parent "outer"
+*/
+.outer {
+  width: 400px;
+  height: 400px;
+  background: red;
+}
+
+.inner {
+  width: 50%;
+  height: 50%;
+  background: pink;
+}
+
+/*
+  050500
+  em - relative to parent
+  1em -> 16px
+  1em -> base value
+*/
+div {
+  font-size: 10px;
+}
+
+.relative {
+  font-size: 2em;
+}
+
+.absolute {
+  font-size: 32px;
+}
