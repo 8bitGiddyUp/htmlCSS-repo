@@ -1,0 +1,80 @@
+h1 {
+  color: red;
+}
+
+h2 {
+  color: green;
+}
+
+h3 {
+  color: cornflowerblue;
+}
+
+p {
+  color: blueviolet;
+}
+
+.primary-heading {
+  color: pink;
+}
+
+#welcome {
+  background-color: lightgray;
+}
+
+#about {
+  background-color: grey;
+}
+
+/*
+  multiple selectors
+*/
+#welcome,
+#about {
+  border: 1px solid red;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+/*
+  nested selectors
+  #welcome, p vs. #welcome p
+    -> #welcome, p
+      affects the css to all id=welcome and all p tags
+    -> #welcome p
+      affects id=welcome and all p tags inside id=welcome
+*/
+.subhead .lorem {
+  color: white;
+  font-size: 20px;
+}
+/* 
+.subhead p {
+  color: chocolate;
+  font-size: 40px;
+}
+
+.subhead p,
+h2 {
+  color: yellowgreen;
+  font-size: 10px;
+}
+
+#welcome h2 {
+  color: pink;
+  font-size: 40px;
+}
+
+#welcome p {
+  color: red;
+}
+
+#about h2 {
+  color: aqua;
+  font-size: 20px;
+}
+
+#about p {
+  color: purple;
+  font-size: 20px;
+} */

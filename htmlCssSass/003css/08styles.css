@@ -1,0 +1,32 @@
+/*
+  to remove all default CSS setting
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  /* box-sizing: border-box; */
+
+  background: wheat;
+  border: 2px red solid;
+  width: 380px;
+
+  /*
+    add paddings to all sides; the padding adds to the current defined width,
+    i.e.
+      when 20px padding is added to all sides,
+        width + padding = 380px + 20px = 400px
+        height + padding = height + 20px = <>px
+        left + padding
+        right + padding
+
+      to avoid this behavior, add
+        box-sizing: border-box;
+  */
+  padding: 20px;
+
+  margin: 20px;
+}
