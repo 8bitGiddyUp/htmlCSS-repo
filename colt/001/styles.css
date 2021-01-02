@@ -1,0 +1,27 @@
+a {
+  color: pink;
+}
+
+/* span {
+  color: red;
+  font-size: 40px;
+} */
+
+.icon {
+  color: red;
+  font-size: 40px;
+}
+
+h2,
+i,
+.icon {
+  color: cornflowerblue;
+}
+
+p i {
+  color: red;
+}
+
+h2 + p {
+  color: aqua;
+}
