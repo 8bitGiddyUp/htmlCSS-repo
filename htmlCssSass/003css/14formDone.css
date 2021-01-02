@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background: pink;
+  color: red;
+
+  /*
+    add gaps between each line
+  */
+  line-height: 1.8;
+}
+
+a {
+  /*
+    removes underlines on hyperlinks
+  */
+  text-decoration: none;
+}
+
+#container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 50px;
+}
+
+.form-wrap {
+  background: lightgrey;
+  padding: 15px 25px;
+}
+
+.form-wrap h1,
+.form-wrap p {
+  text-align: center;
+}
+
+/*
+  div's ".form-wrap" property doesn't affect all selectors
+
+  does it need ".form-group"?
+*/
+.form-wrap .form-group {
+  margin-top: 10px;
+  color: black;
+}
+
+/*
+  'label' and 'input' tags are inline but make them 'block'
+*/
+.form-wrap .form-group label {
+  display: block;
+}
+
+/*
+  applies different colors to input labels
+*/
+.form-wrap .form-group #first-name-label,
+#confirm-password-label,
+#email-label {
+  color: cornflowerblue;
+}
+
+.form-wrap .form-group input {
+  width: 100%;
+  padding: 10px;
+  border: black 1px solid;
+  border-radius: 5px;
+}
+
+.form-wrap button {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  background: cornflowerblue;
+  color: wheat;
+  cursor: pointer;
+}
+
+.form-wrap button:hover {
+  background: blueviolet;
+}
+
+.form-wrap .bottom-text {
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 10px;
+}
+
+footer a {
+  color: cornflowerblue;
+}
