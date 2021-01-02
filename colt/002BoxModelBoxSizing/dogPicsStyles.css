@@ -1,0 +1,41 @@
+nav ul li {
+  display: inline;
+}
+
+a {
+  border-right: 1px solid black;
+  margin-left: 10px;
+  padding-right: 10px;
+}
+
+li:last-of-type a {
+  border-right: 0;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+  margin: 25px;
+  border-right: 10px solid red;
+  padding: 10px;
+  background-color: darkorange;
+}
+
+#register-form input,
+button {
+  display: block;
+  box-sizing: border-box;
+  width: 300px;
+}
+
+input[type="text"] {
+  border-top: 10px solid darkslateblue;
+  margin-bottom: 5px;
+}
+
+input[type="password"] {
+  margin-bottom: 5px;
+}
+
+button {
+}
