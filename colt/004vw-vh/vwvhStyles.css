@@ -1,0 +1,40 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+section {
+  background: linear-gradient(to bottom, magenta, cyan);
+  height: 100vh;
+}
+
+div {
+  height: 50px;
+}
+
+#one {
+  width: 100vw;
+  background-color: red;
+}
+
+#two {
+  width: 80vw;
+  background-color: cornflowerblue;
+}
+
+#three {
+  width: 50vw;
+  background-color: yellow;
+}
+
+#nested1 {
+  background-color: green;
+  height: 50%;
+  width: 50%;
+}
+
+#nested2 {
+  background-color: grey;
+  height: 50%;
+  width: 25%;
+}
