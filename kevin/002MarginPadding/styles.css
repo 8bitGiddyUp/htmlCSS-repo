@@ -1,0 +1,19 @@
+.demo-box {
+  margin: 100px auto;
+  color: white;
+}
+
+.one {
+  background: #311847;
+  height: 50px;
+}
+
+.two {
+  background: #ec4067;
+  height: 50px;
+}
+
+.three {
+  background: #a01a7d;
+  height: 50px;
+}

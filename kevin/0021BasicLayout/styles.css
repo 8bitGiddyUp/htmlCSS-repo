@@ -1,0 +1,36 @@
+body {
+  background-color: olivedrab;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+header {
+  background-color: palegoldenrod;
+  padding: 50px 0px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+section {
+  background-color: plum;
+  float: left;
+  width: 70%;
+}
+
+aside {
+  float: right;
+  width: 25%;
+}
+
+footer {
+  clear: both;
+  background-color: cornflowerblue;
+  padding: 50px 0;
+  text-align: center;
+}
