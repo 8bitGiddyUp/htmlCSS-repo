@@ -1,16 +1,28 @@
 .demo-box {
+  width: 80%;
   margin: 100px auto;
   color: white;
+  background-color: thistle;
+  border: 5px solid cornflowerblue;
 }
 
 .one {
+  border: 10px solid green;
   background: #311847;
   height: 50px;
+  /* margin-bottom: 200px; */
+  margin-top: 500px;
 }
 
 .two {
   background: #ec4067;
   height: 50px;
+
+  /*
+    margin-top does not push up the red 100px; it overlaps with
+    .one margin-bottom;
+  */
+  /* margin-top: 300px; */
 }
 
 .three {
