@@ -1,4 +1,4 @@
-nav ul li {
+/* nav ul li {
   display: inline;
 }
 
@@ -38,4 +38,24 @@ input[type="password"] {
 }
 
 button {
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: green;
+  width: 600px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+ul li {
+  display: inline-block;
+  background-color: pink;;
+  width: 32.88888888%;
+  height: 200px;
 }
